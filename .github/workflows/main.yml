@@ -27,7 +27,7 @@ jobs:
       - name: Generate Clean Android Native Project
         run: |
           rm -rf android
-          flutter create --org com.example .
+          flutter create --org com.example --project-name gametower .
 
       - name: Get Dependencies
         run: flutter pub get
